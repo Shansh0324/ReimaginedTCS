@@ -544,7 +544,29 @@ function raf(time) {
     requestAnimationFrame(raf);
 }
 
-
+// Subtle "liquid glass" hover effect for buttons using GSAP
+// if (window.gsap) {
+//     document.querySelectorAll('.footer-btn').forEach(btn => {
+//         btn.addEventListener('mouseenter', () => {
+//             gsap.to(btn, { 
+//                 scale: 1.08, 
+//                 boxShadow: "0 6px 32px 0 rgba(37,99,235,0.25)", 
+//                 background: "linear-gradient(90deg, #2563eb 0%, #60a5fa 100%)", 
+//                 duration: 0.35, 
+//                 ease: "power2.out" 
+//             });
+//         });
+//         btn.addEventListener('mouseleave', () => {
+//             gsap.to(btn, { 
+//                 scale: 1, 
+//                 boxShadow: "0 2px 12px 0 rgba(37,99,235,0.15)", 
+//                 background: "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)", 
+//                 duration: 0.35, 
+//                 ease: "power2.out" 
+//             });
+//         });
+//     });
+// }
 
 
 locoInitalize();
@@ -578,4 +600,15 @@ function firecrackers() {
 }
 
 
+
+function showDeveloperInfo() {
+    console.log(
+        "%cSite designed & developed by %cShashank Dev%c | Portfolio: %chttps://shashankdev-portfolio.netlify.app/",
+        "color: #222; font-size: 1rem; font-family: gilroy, sans-serif;",
+        "color: #14CF93; font-family: mazius, cursive; font-size: 1rem;",
+        "color: #222; font-size: 1rem; font-family: gilroy, sans-serif;",
+        "color: #2563eb; font-family: mazius, cursive; text-decoration: underline; font-size: 1rem;"
+    );
+}
+showDeveloperInfo();
 
