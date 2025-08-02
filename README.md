@@ -39,25 +39,6 @@ The design emphasizes rich animations, smooth scrolling, dynamic content, and ac
 
 ---
 
-## Folder Structure
-project-root/
-│
-├── index.html # Main HTML file
-├── style.css # Stylesheet
-├── script.js # JavaScript file containing animations and interactions
-├── Assets/ # Folder containing images, SVGs, fonts, and other assets
-│ ├── img1.jpeg
-│ ├── img2.jpeg
-│ ├── img3.jpeg
-│ ├── fonts/
-│ │ ├── Gilroy-Medium.ttf
-│ │ └── Mazius-Extraitalic.otf
-│ └── ...
-└── README.md # This file
-
-
----
-
 ## Setup and Installation
 
 1. **Clone the repository** or download the project files.
