@@ -330,8 +330,6 @@
 //     });
 // });
 
-// locoInitalize();
-
 function valueSetters() {
     gsap.set("#nav a", { y: "-100%", opacity: 0 });
     gsap.set("#home span .child", { y: "100%" });
@@ -532,9 +530,9 @@ document.querySelectorAll('.elem').forEach(elem => {
 function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
-        centeredSlides: false, // Changed to false to start from the beginning
+        centeredSlides: false, 
         spaceBetween: 100,
-        initialSlide: 0, // Explicitly set to start at the first slide
+        initialSlide: 0, 
     });
 }
 
@@ -543,30 +541,6 @@ function raf(time) {
     lenis.raf(time);
     requestAnimationFrame(raf);
 }
-
-// Subtle "liquid glass" hover effect for buttons using GSAP
-// if (window.gsap) {
-//     document.querySelectorAll('.footer-btn').forEach(btn => {
-//         btn.addEventListener('mouseenter', () => {
-//             gsap.to(btn, { 
-//                 scale: 1.08, 
-//                 boxShadow: "0 6px 32px 0 rgba(37,99,235,0.25)", 
-//                 background: "linear-gradient(90deg, #2563eb 0%, #60a5fa 100%)", 
-//                 duration: 0.35, 
-//                 ease: "power2.out" 
-//             });
-//         });
-//         btn.addEventListener('mouseleave', () => {
-//             gsap.to(btn, { 
-//                 scale: 1, 
-//                 boxShadow: "0 2px 12px 0 rgba(37,99,235,0.15)", 
-//                 background: "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)", 
-//                 duration: 0.35, 
-//                 ease: "power2.out" 
-//             });
-//         });
-//     });
-// }
 
 
 locoInitalize();
