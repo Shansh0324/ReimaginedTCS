@@ -324,10 +324,6 @@
 //             "noise_scale": { "value": 10, "range": [0, 100] }
 //         }
 //     });
-
-//     Shery.hoverWithMediaCircle(".workrow", {
-//         images: ["image1.jpg", "image2.jpg", "image3.jpg"]
-//     });
 // });
 
 function valueSetters() {
