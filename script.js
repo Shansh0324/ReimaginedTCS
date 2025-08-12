@@ -320,8 +320,6 @@
 //             "metaball": { "value": 0.2, "range": [0, 2] },
 //             "discard_threshold": { "value": 0.5, "range": [0, 1] },
 //             "antialias_threshold": { "value": 0.002, "range": [0, 0.1] },
-//             "noise_height": { "value": 0.5, "range": [0, 2] },
-//             "noise_scale": { "value": 10, "range": [0, 100] }
 //         }
 //     });
 // });
